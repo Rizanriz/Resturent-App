@@ -2,7 +2,7 @@ import { asyncThunkCreator, createAsyncThunk, createSlice } from "@reduxjs/toolk
 import axios from "axios";
 
 export const fetchResturents  = createAsyncThunk("resturents/fetchResturents",async()=>{
-    const result = await axios.get("http://localhost:3000/restaurants")
+    const result = await axios.get("https://resturent-server-udmo.onrender.com/restaurants")
     return result.data
 }) 
 

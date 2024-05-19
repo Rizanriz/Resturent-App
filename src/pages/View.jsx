@@ -34,7 +34,7 @@ function View() {
           <div className="col-lg-6 text-light">
             <h1>{resturant.name}</h1>
             <h3 className='text-danger'>{resturant.address}</h3>
-            <p>{resturant.neighborhood}</p>
+            <p className='text-white'>{resturant.neighborhood}</p>
             <div className='d-flex justify-content-evenly mt-3'>
               <Button variant="success" className='bg-white text-black' onClick={() => setShowReviews(!showReviews)}>
                 Review
