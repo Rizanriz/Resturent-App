@@ -1,0 +1,7 @@
+body{
+    font-family: x;
+}
+@font-face {
+    font-family: x;
+    src: url(./assets/NotoSerif_Condensed-ExtraBoldItalic.ttf);
+}
