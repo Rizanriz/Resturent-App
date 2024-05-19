@@ -24,7 +24,7 @@ function Header({insideHome}) {
                     </Nav> */}
                     { insideHome &&
                     <div>
-                        <input onChange={e=>dispatch(searchResturant(e.target.value.toLowerCase()))} type="text" placeholder='Search' className='rounded' style={{width:"400px",height:"40px", padding:"5px", border:"none", outline:"none"}} />
+                        <input onChange={e=>dispatch(searchResturant(e.target.value.toLowerCase()))} type="text" placeholder='Search by location' className='rounded' style={{width:"400px",height:"40px", padding:"5px", border:"none", outline:"none"}} />
                     </div>}
                 </Container>
             </Navbar>
